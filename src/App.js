@@ -17,6 +17,7 @@ import { setUserAuthenticated } from "./redux/reducers/authReducer";
 import Cookies from "js-cookie"
 import Contact from "./pages/Contact/Contact";
 import Keylogger from "./pages/keylogger/Keylogger";
+import Support from "./pages/support/Support";
 const hideNavbarRoutes = ["/login", "/register", "/forgot_password","/dashboard"];
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
          <Route path="/" element={<Section1 />} />
          <Route path="/store" element={<Store />} />
          <Route path="/contact-us" element={<Contact />} />
+         <Route path="/support-center" element={<Support />} />
          <Route path="/keylogger" element={<Keylogger />} />
          <Route path="/dashboard" element={
           <PrivateRoute>

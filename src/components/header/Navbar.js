@@ -50,7 +50,7 @@ const Navbar = () => {
           <div className="nav-links">
             <Link to="/" className="nav-link" onClick={closeMenu}>
               <p className="nav-name" style={{ padding: 5 }}>
-                Tracker
+                Products
                 <svg
                   className="header-arrow"
                   xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@ const Navbar = () => {
               </p>
             </Link>
             <Link to="/keylogger" className="nav-link" onClick={closeMenu}>
-              <p className="nav-name" style={{ padding: 5 }}>
+              <p className="nav-name feature" style={{ padding: 5 }}>
                 Keylogger
                 <svg
                   className="header-arrow"
@@ -96,6 +96,116 @@ const Navbar = () => {
                   <path d="M1 3l5.5 5L12 3" />
                 </svg>
               </p>
+              <div className="product-bg">
+              
+                <ul class="header-prodlink">
+              <li>
+                <a href="/screen-time-report/" target="_blank">
+                  <div class="a-left">
+                    <div class="logo-icon">
+                      <img loading="lazy" src="https://images.famiguard.com/famiguarden/assets/common/screen-time-feature.svg" alt="Screen Time"/>
+                    </div>
+                    <div class="products_text">
+                      <div class="products_text_top">
+                        <b>Screen Time</b>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="a-right">
+        
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/screen-time-report/" target="_blank">
+                  <div class="a-left">
+                    <div class="logo-icon">
+                      <img loading="lazy" src="https://images.famiguard.com/famiguarden/assets/common/screen-time-feature.svg" alt="Screen Time"/>
+                    </div>
+                    <div class="products_text">
+                      <div class="products_text_top">
+                        <b>Block App</b>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="a-right">
+        
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/screen-time-report/" target="_blank">
+                  <div class="a-left">
+                    <div class="logo-icon">
+                      <img loading="lazy" src="https://images.famiguard.com/famiguarden/assets/common/screen-time-feature.svg" alt="Screen Time"/>
+                    </div>
+                    <div class="products_text">
+                      <div class="products_text_top">
+                        <b>Block website</b>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="a-right">
+        
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/screen-time-report/" target="_blank">
+                  <div class="a-left">
+                    <div class="logo-icon">
+                      <img loading="lazy" src="https://images.famiguard.com/famiguarden/assets/common/screen-time-feature.svg" alt="Screen Time"/>
+                    </div>
+                    <div class="products_text">
+                      <div class="products_text_top">
+                        <b>Location Tracker</b>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="a-right">
+        
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/screen-time-report/" target="_blank">
+                  <div class="a-left">
+                    <div class="logo-icon">
+                      <img loading="lazy" src="https://images.famiguard.com/famiguarden/assets/common/screen-time-feature.svg" alt="Screen Time"/>
+                    </div>
+                    <div class="products_text">
+                      <div class="products_text_top">
+                        <b>Call History</b>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="a-right">
+        
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/social-media-monitor/" target="_blank">
+                  <div class="a-left">
+                    <div class="logo-icon">
+                      <img loading="lazy" src="https://images.famiguard.com/famiguarden/assets/common/media-feature.svg" alt="Social Media Monitor" />
+                    </div>
+                    <div class="products_text">
+                      <div class="products_text_top">
+                        <b>Social Media Monitor</b>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="a-right">
+  
+                  </div>
+                </a>
+              </li>
+  
+            </ul>
+               
+              </div>
+
             </Link>
             <Link to="/goals" className="nav-link" onClick={closeMenu}>
               <p className="nav-name" style={{ padding: 5 }}>
@@ -136,6 +246,17 @@ const Navbar = () => {
                 >
                   <path d="M1 3l5.5 5L12 3" />
                 </svg>
+              </p>
+            </Link>
+
+            <Link
+              to="/support-center"
+              className="nav-link"
+              onClick={closeMenu}
+            >
+              <p className="nav-name" style={{ padding: 5 }}>
+                Support
+  
               </p>
             </Link>
 
