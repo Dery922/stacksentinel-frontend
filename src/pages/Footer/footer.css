@@ -1,0 +1,127 @@
+.footer {
+  background: #000;
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer_box1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-item1,
+.footer-item2 {
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.footer-item1 {
+  flex: 1 1 20%;
+}
+
+.footer-item2 {
+  flex: 1 1 20%;
+}
+
+.footer-item1 img,
+.footer-item2 a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer_ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_ul li {
+  margin: 8px 0;
+}
+
+.footer_ul a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer_ul a:hover {
+  text-decoration: underline;
+}
+
+.footer_box2 {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer_title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer_desc {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+
+.footer-item1 .store a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding:10px;
+  border: 1px solid #ff9a34;
+  border-radius: 4px;
+  color: #ff9a34;
+}
+.footer .shoppingcart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 6px;
+}
+
+
+.footer_box1 .footer-item1 {
+  padding: 0 15px;
+}
+
+/* aside css here */
+
+.base-floatcontactus {
+  position: fixed;
+  right: 0;
+  bottom: 375px;
+  z-index: 10;
+  background-color: #1404f0;
+  color: #fff;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  width: 50px; /* Default width - just enough for the icon */
+  height: 40px; /* Set a fixed height */
+  overflow: hidden;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  text-decoration: none;
+  box-sizing: border-box;
+  border-radius: 20px 0 0 20px; /* Rounded left corners */
+}
+
+.base-floatcontactus:hover {
+  width: 180px; /* Expanded width to show full text */
+}
+
+.base-floatcontactus svg {
+  min-width: 45px; /* Ensure icon space is maintained */
+}
+
+@media (max-height: 900px) {
+  .base-floatcontactus {
+      bottom: 300px;
+  }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="220" viewBox="0 0 1920 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E90FF"/>
+      <stop offset="100%" stop-color="#0077FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="220" fill="url(#bg)"/>
+
+  <!-- Wave layers -->
+  <path d="M0 120 C 240 80, 480 160, 720 130 C 960 100, 1200 160, 1440 125 C 1650 100, 1800 120, 1920 95 L 1920 220 L 0 220 Z"
+        fill="#ffffff" opacity="0.12"/>
+  <path d="M0 150 C 220 180, 500 120, 780 160 C 1060 200, 1320 140, 1600 170 C 1750 185, 1840 175, 1920 165 L 1920 220 L 0 220 Z"
+        fill="#ffffff" opacity="0.16"/>
+  <path d="M0 180 C 260 160, 520 210, 780 195 C 1040 180, 1300 210, 1560 190 C 1740 178, 1840 185, 1920 190 L 1920 220 L 0 220 Z"
+        fill="#ffffff" opacity="0.2"/>
+
+  <!-- Subtle gradient wave overlay -->
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 80 C 300 40, 600 110, 900 75 C 1200 40, 1500 110, 1920 60 L 1920 0 L 0 0 Z"
+        fill="url(#wave)"/>
+
+</svg>

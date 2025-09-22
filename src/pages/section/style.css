@@ -1,0 +1,141 @@
+
+.top-banner{
+    position: relative;
+    background: linear-gradient(rgb(248, 248, 250), transparent);;
+}
+
+.swiper-container{
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.top-banner .swiper-slide .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  80px 0;
+
+}
+
+.blue-span{
+    color: #1404f0;
+}
+
+.orange-span{
+    color : #1404f0;
+}
+
+
+.sentinel-slide .blue-span{
+    font-weight: 700;
+}
+
+.sentinel-slide .left{
+    max-width: 572px;
+    width: 100%;
+    min-height: 352px;
+    margin-right: 20px;
+}
+.sentinel-slide .left h1{
+    text-align:  left;
+    font-size: 40px;
+    line-height: 1.35;
+}
+.sentinel-slide .left h1 .block {
+    display: block;
+}
+.sentinel-slide .banner-list {
+    margin: 24px 0;
+}
+
+.sentinel-slide .banner-list li {
+    padding-left: 12px;
+    position: relative;
+}
+
+.sentinel-slide .banner-list li::before {
+    position: absolute;
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #333333;
+    top: 9px;
+    left: 0;
+}
+
+.sentinel-slide .banner-list li + li {
+    margin-top: 12px;
+}
+
+.sentinel-slide .available {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.sentinel-slide .available span {
+    opacity: 0.5;
+}
+
+.sentinel-slide .available svg {
+    margin-left: 10px;
+}
+
+.sentinel-slide .right {
+    max-width: 528px;
+    width: 100%;
+}
+
+.sentinel-slide .left {
+    max-width: 572px;
+    width: 100%;
+    min-width: 352px;
+    margin-right: 20px;
+}
+
+.left {
+    float: unset;
+}
+
+
+.btn-started {
+    display: flex;
+    padding: 12px;
+    font-weight: 600;
+    background-color: rgb(65, 17, 197);
+    color: white;
+    border-radius: 35px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 54px;
+  }
+  .btn-started:hover .arrow {
+    transform: translateX(5px);
+  }
+  
+  .btn-started:hover {
+    background-color: rgb(41, 8, 131);
+  }
+  .arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+
+  .arrow {
+    width: 24px;
+    height: 24px;
+    background: #FFFFFF;
+    border-radius: 59%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+    transition: all 0.2s;
+  }
+

@@ -1,0 +1,224 @@
+/* XLoginPage.css */
+.x-login-container {
+    display: flex;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+/* Default (desktop/tablet) */
+.x-login-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.x-login-left {
+  flex: 1;
+  background: #f5f5f5; /* example background */
+}
+
+.x-login-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* Mobile view (phones only) */
+@media screen and (max-width: 768px) {
+  .x-login-left {
+    display: none !important; /* hide left panel */
+  }
+
+  .x-login-right {
+    flex: 1 1 100%;
+    width: 100% !important;
+    padding: 20px;
+
+    display: flex !important; 
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 100vh !important; /* full screen height */
+  }
+
+  .x-login-form {
+    width: 100% !important;
+    max-width: 400px; /* keeps it neat */
+  }
+}
+
+
+  
+  .x-login-left,
+  .x-login-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .x-login-left {
+    background-color: #000;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .x-login-right {
+    background-color: #f4f4f4;
+    flex-direction: column;
+  }
+  
+  .x-login-form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .x-login-form input {
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+
+  .x-login-form .button-custom-google{
+    padding: 14px;
+    font-size: 16px;
+    background-color:rgb(255, 255, 255);
+    color: #2c2929;
+    border: 1px solid rgb(207, 217, 222); 
+    width: 88%;
+    height: 44px;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    
+    
+  }
+  .x-login-form .button-custom-google:hover {
+    background-color: rgb(238 252 255);
+    border: 1px solid rgb(127 167 187);
+  }
+
+
+  .x-login-form button {
+    padding: 14px;
+    font-size: 16px;
+    background-color: rgb(65, 17, 197);
+    color: #fff;
+    width: 88%;
+    height: 44px;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+
+  .x-forgot {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+  }
+
+  .btn-g-stack{
+    align-items: stretch;
+    background-color: rgb(65, 17, 197);
+    border: 0px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    min-height: 0px;
+    min-width: 0px;
+    padding : 0px;
+    position: relative;
+    text-decoration: none;
+    z-index: 0;
+  }
+  .btn-g-stack:hover {
+    background-color: rgb(61, 0, 214);
+    border: 1px solid rgb(127 167 187);
+  }
+  
+
+  /* divider section here */
+
+  .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 24px 0;
+    gap: 12px;
+  }
+  
+  .divider p {
+    margin: 0;
+    font-size: 14px;
+    color: #6c757d;
+    white-space: nowrap;
+  }
+  
+  .line1,
+  .line2 {
+    flex: 1;
+    height: 1px;
+    background: #ccc;
+  }
+  
+  .terms1 {
+    margin-top: 16px;
+    text-align: center;
+    padding: 0 12px;
+  }
+  
+  .terms {
+    font-size: 13px;
+    color: #6c757d; /* A soft gray tone */
+    line-height: 1.5;
+  }
+  
+  .terms a {
+    color: #007bff; /* Link blue */
+    text-decoration: none;
+  }
+  
+  .terms a:hover {
+    text-decoration: underline;
+  }
+
+
+  .p-cl {
+    border-radius: 2px;
+    background: rgba(95, 99, 104, .9);
+    color: #fff;
+    font: 500 10px/10px var(--devsite-primary-font-family);
+    padding: 6px 8px;
+    position: absolute;
+    bottom: -30px; /* position under the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    display: none;
+    z-index: 1020;
+  }
+  
+  .icon-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .icon-wrapper:hover .p-cl {
+    display: block;
+  }

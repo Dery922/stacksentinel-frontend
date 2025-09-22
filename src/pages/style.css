@@ -1,0 +1,843 @@
+body {
+  font-family: Open Sans;
+}
+a{
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* Or your preferred max width */
+  margin: 0 auto;
+  padding: 0 15px; /* Add some padding */
+}
+
+.left {
+  float: unset;
+}
+
+.right {
+  float: unset;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  text-align: center;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 65px;
+  max-width: 873px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+}
+
+h1 + p {
+  max-width: 703px;
+  margin: 20px auto 30px;
+  text-align: center;
+  color: rgba(46, 46, 46, 1);
+}
+
+.millon .container,
+.product-box .container,
+.product-box .item,
+.product-box .item .item-bth,
+.product-box .item .go-product,
+.product-box .item .right,
+.what-new .container .left .item,
+.what-new .container .h4,
+.what-new .container .right,
+.featured-on .bottomcontent ul .str_move,
+.featured-on .swiper-slide .item,
+.arrow-icon.featured-on .swiper-slide .item .bottom-buttom,
+.featured-on .real-life .real-flex,
+.featured-on .real-life .real-flex .item,
+.featured-on .real-life .real-flex .item .item-contant,
+.why-fam .why-box,
+.hot-topics .tabswitch-content .base-tabswitch-msg .item .imgbox,
+.hot-topics .tabswitch-content .base-tabswitch-msg.active,
+.hot-topics .tab-switch,
+.way .war-swiper .swiper-pagination,
+.way .war-swiper .swiper-slide .lide-r a,
+.way .war-swiper .swiper-slide,
+.explore .explore-list .list-r,
+.explore .explore-list .list-l,
+.explore .explore-list a .bottom,
+.explore .explore-list a .content,
+.explore .explore-list {
+  display: flex;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden; /* Only if needed */
+}
+
+/* millon */
+.millon .container {
+  max-width: 1060px;
+  justify-content: space-between;
+  padding-top: 22px;
+}
+
+.grey-text {
+  color: rgba(46, 46, 46, .5);
+}
+
+.millon .container .item-m {
+  text-align: center;
+  max-width: 200px;
+}
+
+.millon .container .item-m .h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 992px) {
+  .millon .container {
+    justify-content: center;
+  }
+
+  .millon .container .item-m {
+    max-width: 150px;
+  }
+
+  .millon .container .item-m:nth-child(2) {
+    margin: 0 30px;
+  }
+
+  .millon .container .item-m .h3 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+  }
+
+  .millon .grey-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+}
+
+/* millon */
+
+/* product-box  */
+.product-box {
+  padding: 100px 0 0;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.product-box::before {
+  content: "";
+  width: 213px;
+  height: 215px;
+  background: url(https://images.imyfone.com/famiguarden/assets/common/index/product-box-before.png)
+    no-repeat;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.product-box .container {
+  justify-content: space-between;
+}
+
+.product-box .item {
+  width: 277px;
+  min-height: 400px;
+  padding: 30px 0 30px 30px;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+.product-box .item + .item {
+  margin-left: 20px;
+}
+
+.product-box .item .h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.product-box .item .item-bth {
+  border-radius: 32px;
+  width: 109px;
+  height: 40px;
+  color: #ffffff;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.product-box .item .go-product {
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.product-box .item .go-product a {
+  margin-top: 12px;
+}
+
+.product-box .item .left .product-icon {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.product-box .item .right {
+  margin-top: 40px;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.product-box .item .right p {
+  font-size: 14px;
+  line-height: 19px;
+  padding-right: 30px;
+  margin-top: 30px;
+  color: rgba(46, 46, 46, 0.5);
+}
+
+.product-box .item:nth-child(1) {
+  background: rgba(35, 193, 123, 0.2);
+}
+
+.product-box .item:nth-child(1) .h4 {
+  color: #23c17b;
+}
+
+.product-box .item:nth-child(1) .item-learn {
+  color: #23c17b;
+}
+
+.product-box .item:nth-child(1) .item-bth {
+  background: #23c17b;
+}
+
+.product-box .item:nth-child(2) {
+  background: rgba(99, 150, 222, 0.2);
+}
+
+.product-box .item:nth-child(2) .h4 {
+  color: #6396de;
+}
+
+.product-box .item:nth-child(2) .item-learn {
+  color: #6396de;
+}
+
+.product-box .item:nth-child(2) .item-bth {
+  background: #6396de;
+}
+
+.product-box .item:nth-child(3) .item-bth,
+.product-box .item:nth-child(3) {
+  background: rgba(123, 96, 193, 0.2);
+}
+
+.product-box .item:nth-child(3):hover .item-bth {
+  background: #6548b1;
+}
+
+.product-box .item:nth-child(3) .h4 {
+  color: #7b60c1;
+}
+
+.product-box .item:nth-child(3) .item-learn {
+  color: #7b60c1;
+}
+
+.product-box .item:nth-child(3) .item-bth {
+  background: #7b60c1;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.product-box .item:nth-child(4) {
+  background: rgba(255, 204, 31, 0.2);
+}
+
+.product-box .item:nth-child(4) .h4 {
+  color: #f3bc00;
+}
+
+.product-box .item:nth-child(4) .item-learn {
+  color: #f3bc00;
+}
+
+.product-box .item:nth-child(4) .item-bth {
+  background: #f3bc00;
+}
+
+/* product-box */
+@media screen and (max-width: 1620px) {
+  .product-box::before {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .product-box .item:nth-child(3) .right p {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 1024px) {
+  .product-box .item:nth-child(2) .right p {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .product-box .item {
+    width: 45%;
+    margin: 10px !important;
+    min-height: 340px;
+  }
+
+  .product-box .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .product-box .item .right {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .product-box {
+    padding: 40px 0 30px;
+    margin-bottom: 0;
+  }
+
+  .product-box .item {
+    padding: 20px 0 20px 20px;
+  }
+
+  .product-box .item .right {
+    margin-top: 20px;
+  }
+
+  .product-box .item .left {
+    max-width: 40px;
+  }
+
+  .product-box .item .right p {
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .product-box .item .h4 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .product-box .item .go-product {
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .product-box .item {
+    margin: 0 0 10px;
+    width: 100%;
+    flex-direction: row;
+    height: auto;
+    min-height: auto;
+  }
+
+  .product-box .item .right {
+    margin-top: 0;
+  }
+
+  .product-box .item .left {
+    margin-right: 10px;
+  }
+
+  .product-box .item .go-product {
+    justify-content: flex-start;
+    margin-top: 16px;
+  }
+
+  .product-box .item .item-bth {
+    margin-right: 24px;
+    height: 32px;
+    font-size: 14px;
+  }
+}
+
+/* end of go Product here */
+
+/* explore starts here */
+
+/* explore */
+.explore {
+  position: relative;
+  padding: 100px 0 0;
+}
+
+.explore::before {
+  position: absolute;
+  content: "";
+  width: 213px;
+  height: 215px;
+  background: url(https://images.imyfone.com/famiguarden/assets/common/index/esplore-bg.png)
+    no-repeat;
+  bottom: 40px;
+  right: 0;
+}
+
+.explore .explore-list {
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.explore .explore-list a {
+  position: relative;
+  padding: 30px;
+  width: 214px;
+  height: 234px;
+  display: block;
+  border-radius: 20px;
+  margin: 20px 10px 0;
+}
+
+.explore .explore-list a.green {
+  background: #23c17b;
+}
+
+.explore .explore-list a.blue {
+  background: #6396de;
+}
+
+.explore .explore-list a.purple {
+  background: #7b60c1;
+}
+
+.explore .explore-list a.yellow {
+  background: #f3bc00;
+}
+
+.explore .explore-list a .text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: all 0.3s;
+  padding: 30px 20px 0 30px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.explore .explore-list a:hover .text {
+  top: 0;
+}
+
+.explore .explore-list a:hover .content {
+  opacity: 0;
+}
+
+.explore .explore-list a .content {
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  transition: all 0.3s;
+}
+
+.explore .explore-list a .title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #fff;
+}
+
+.explore .explore-list a .bottom {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.explore .explore-list a .bottom p {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.explore .explore-list .list-l {
+  flex-direction: column;
+  max-height: 762px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.explore .explore-list .list-r .list-two {
+  margin-top: 122px;
+}
+
+@media screen and (max-width: 1366px) {
+  .explore::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .explore .explore-list a .text {
+    padding: 15px 15px 0;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .explore {
+    padding: 60px 0 0;
+  }
+
+  .explore .explore-list {
+    margin-top: 50px;
+    align-items: center;
+  }
+
+  .explore .explore-list a {
+    width: 160px;
+    height: 175px;
+    margin: 0 0 15px;
+  }
+
+  .explore .explore-list .list-l {
+    max-height: max-content;
+    margin-right: 15px;
+  }
+
+  .explore .explore-list .list-r {
+    flex-direction: column;
+  }
+
+  .explore .explore-list .list-r .list-two {
+    margin-top: 0;
+  }
+
+  .explore .explore-list a .bottom img {
+    width: 44.77px;
+  }
+
+  .explore .explore-list a {
+    padding: 22px;
+  }
+
+  .explore .explore-list a .title {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .explore .explore-list a .bottom p {
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 11px;
+  }
+}
+
+/* faqs */
+.faqs {
+  padding: 100px 0;
+}
+
+.faq-box {
+  margin: 50px 0 40px;
+}
+
+.faq-box .faqs-title {
+  padding: 20px 30px;
+  border-radius: 20px;
+  background: #f4f4f4;
+}
+
+.faq-box .faqs-title:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.faq-box .faqs-title p {
+  cursor: pointer;
+}
+
+.faq-box .faqs-title.curr {
+  background: #d3f3e5;
+}
+
+.faq-box .faqs-title.curr p {
+  color: #23c17b;
+  font-weight: 600;
+}
+
+.faq-box .faqs-title .faqs-msg {
+  display: none;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.faq-box .faqs-title.curr .faqs-msg {
+  display: block;
+  color: #2e2e2e;
+}
+
+@media screen and (max-width: 992px) {
+  .faqs {
+    padding: 60px 0;
+  }
+
+  .faq-box {
+    margin: 40px 0 0;
+  }
+}
+
+
+/* hot topics start here */
+.hot-topics {
+  background: #000;
+  padding: 100px 0;
+}
+
+.hot-topics .tab-switch {
+  display: flex;
+  margin: 55px 0 42px;
+}
+
+.hot-topics h2 {
+  color: #fff;
+}
+
+.hot-topics .tab-switch .base-tabswitch-title.active {
+  color: #23c17b;
+}
+
+.hot-topics .tab-switch .base-tabswitch-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.hot-topics .tab-switch .base-tabswitch-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.hot-topics .tabswitch-content .base-tabswitch-msg .item {
+  margin-left: 40px;
+  max-width: 330px;
+}
+
+.hot-topics .tabswitch-content .base-tabswitch-msg .item a {
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.hot-topics .tabswitch-content .base-tabswitch-msg {
+  width: max-content;
+  padding-right: 20px;
+}
+.hot-topics .tabswitch-content .base-tabswitch-msg .item .imgbox {
+  width: 290px;
+  height: 193px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.hot-topics .base-tabswitch-msg {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+}
+
+.base-tabswitch-title {
+  background: #23c17b;
+}
+
+.base-tabswitch-msg {
+  display: flex;               /* Arrange images in a row */
+  gap: 1rem;                    /* Space between items */
+  overflow-x: auto;             /* Enable horizontal scroll */
+  padding-bottom: 10px;         /* Space so scrollbar doesn’t overlap images */
+  scrollbar-width: thin;        /* For Firefox */
+  scrollbar-color: #ccc transparent;
+}
+
+.base-tabswitch-msg::-webkit-scrollbar {
+  height: 6px;                  /* Scrollbar height */
+}
+
+.base-tabswitch-msg::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.base-tabswitch-msg::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.item {
+  flex: 0 0 auto;               /* Prevent items from shrinking */
+  width: 150px;                 /* You can adjust */
+}
+
+.imgbox img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.base-tabswitch-msg.active-tab {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  padding: 16px;
+  width: 100%;
+  transition: transform 0.2s ease;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+}
+
+.imgbox {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.imgbox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item p {
+  font-size: 15px;
+  color: #333;
+  margin: 0;
+  line-height: 1.4;
+}
+.base-tabswitch-title {
+  background-color: #f3bc00;
+}
+
+.container-sm {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+  .desc-bottom {
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 30px;
+    color: #888;
+  }
+
+  .store:hover{
+    color:#fff;
+  }
+  .cart:hover{
+    color:"#fff"
+  }
+  /* why sentinel */
+
+  .why-fam{
+    padding : 140px 0 156px;
+  }
+  .why-fam .why-box{
+    margin-top: 70px;
+    padding: 70px 28px;
+    background: #343bed;;
+    border-radius: 30px;
+    justify-content: space-between;
+    position:relative;
+    overflow: hidden;
+  }
+
+  .why-fam .why-box .item-w {
+    text-align: center;
+    max-width: 220px;
+}
+.why-fam .why-box .item-w .h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  margin: 15px 0 10px;
+  color: #FFF;
+}
+
+.why-fam .why-box .item-w p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #FFF;
+  opacity: .7;
+}

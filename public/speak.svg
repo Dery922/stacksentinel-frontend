@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_1670_9731" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5.64286 6L14 2V22L5.64286 18H1V6H5.64286Z"/>
+</mask>
+<path d="M14 2H16V-1.17455L13.1365 0.195993L14 2ZM5.64286 6V8H6.09683L6.50631 7.80401L5.64286 6ZM14 22L13.1365 23.804L16 25.1746V22H14ZM5.64286 18L6.50631 16.196L6.09683 16H5.64286V18ZM1 18H-1V20H1V18ZM1 6V4H-1V6H1ZM13.1365 0.195993L4.7794 4.19599L6.50631 7.80401L14.8635 3.80401L13.1365 0.195993ZM16 22V2H12V22H16ZM4.7794 19.804L13.1365 23.804L14.8635 20.196L6.50631 16.196L4.7794 19.804ZM5.64286 16H1V20H5.64286V16ZM3 18V6H-1V18H3ZM1 8H5.64286V4H1V8Z" fill="#FF9933" mask="url(#path-1-inside-1_1670_9731)"/>
+<rect x="23" y="11" width="2" height="7" rx="1" transform="rotate(90 23 11)" fill="#FF9933"/>
+<rect x="22.0981" y="2.63379" width="2" height="7" rx="1" transform="rotate(60 22.0981 2.63379)" fill="#FF9933"/>
+<rect width="2" height="7" rx="1" transform="matrix(0.5 -0.866025 -0.866025 -0.5 22.0981 21.7324)" fill="#FF9933"/>
+</svg>

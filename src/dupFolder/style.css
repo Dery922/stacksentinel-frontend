@@ -1,0 +1,228 @@
+/* Section one css here */
+
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    font-family: "Open Sans", "Segoe UI", sans-serif;
+    background-image: linear-gradient(rgb(53, 53, 104), transparent);
+    gap: 10px;
+  }
+  
+  .section1 {
+    gap: 46px;
+    flex: 1;
+  }
+  
+  .section2 {
+      flex: 1;
+      max-width: 100%;
+    }
+  
+  .intro {
+    display: flex;
+    margin-top: 56px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .landingWrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+    gap: 32px;
+  }
+  
+  .landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    margin: 17px;
+    gap: 100px;
+  }
+  
+  .landing > div {
+    flex: 1;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .spa {
+    color: white;
+  }
+  .top{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .orange-span{
+    color : rgb(4, 53, 212);
+    font-weight: 700;
+    
+  }
+  .available {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+  .btn-started {
+    display: flex;
+    padding: 12px;
+    font-weight: 600;
+    background-color: rgb(65, 17, 197);
+    color: white;
+    border-radius: 35px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 54px;
+  }
+  .btn-started:hover .arrow {
+    transform: translateX(5px);
+  }
+  
+  .btn-started:hover {
+    background-color: rgb(41, 8, 131);
+  }
+  .arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .hero {
+      display: flex;
+      flex-direction: column;
+    }
+    .landing {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      
+    }
+    .section1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .spa2{
+      display: none;
+    }a
+    h1{
+      align-self: center;
+      align-items: center;
+    }
+    .head1{
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 412px) {
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 90vh;
+      background-color: white;
+      align-items: center;
+      flex-direction: column;
+      font-size: 16px;
+      font-family: "Open Sans", "Segoe UI", sans-serif;
+      background-image: linear-gradient(rgb(53, 53, 104), transparent);
+      gap: 16px;
+    }
+  
+    .landing {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .section1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .section2{
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+
+/* Section one css ends here */
+
+
+
+
+
+
+/* Section Two css start here
+*/
+
+.million .container {
+    display: flex;
+    max-width: 1060px;
+    justify-content: space-between;
+    padding-top: 22px;
+  }
+  .million .container .item {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .million .container .item .h3 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 992px) {
+    .million .container {
+        justify-content: center;
+    }
+
+    .million .container .item {
+        max-width: 150px;
+    }
+
+    .million .container .item:nth-child(2) {
+        margin: 0 30px;
+    }
+
+    .million .container .item .h3 {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 4px;
+    }
+
+    .million .grey-text {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+
+}
+

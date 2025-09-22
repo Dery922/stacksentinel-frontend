@@ -1,0 +1,25 @@
+<svg width="13" height="10" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="12" width="15" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+  <desc transform="matrix(69.4444391462539,0,0,69.4444391462539,0,0) ">Created with Sketch.</desc>
+  <g stroke="null" id="svg_12">
+   <g transform="matrix(1.0450492619652545,0,0,1.0450492619652545,99.03926161482278,51.70043957715318) " fill-rule="evenodd" fill="none" id="svg_7">
+    <g stroke="null" fill-rule="nonzero" fill="#b1b7bf" id="svg_8">
+     <g stroke="null" id="svg_9">
+      <polygon stroke="null" points="-93.34303283691408,-48.49796825647354 -94.7572479248047,-47.083753168582916 -88.55014038085939,-40.876645624637604 -82.34303283691408,-47.083753168582916 -83.7572479248047,-48.49796825647354 -88.55014038085939,-43.705075800418854 " id="svg_10"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
